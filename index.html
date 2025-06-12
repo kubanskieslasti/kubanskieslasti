@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кубанские Сласти — Оптовое предложение</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            background-color: #fdfaf6;
+            color: #333;
+        }
+        header {
+            background-color: #f3e5c0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #4b2e14;
+        }
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #4b2e14;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #fff3e6;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .form-block {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        form input, form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form button {
+            background-color: #d4a373;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #f3e5c0;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #6e4d2f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Кубанские Сласти</h1>
+    <p>Натуральные ореховые пасты из Краснодарского края — теперь и для оптовиков</p>
+</header>
+
+<section>
+    <h2>О нас</h2>
+    <p>Мы производим натуральные ореховые пасты с добавлением мёда. Никакого сахара, ароматизаторов или консервантов. Всё — вручную, с душой, в самом сердце Кубани.</p>
+</section>
+
+<section>
+    <h2>Продукция</h2>
+    <div class="products">
+        <div class="product"><strong>Миндальное лакомство</strong><br>Нежная паста из миндаля с мёдом</div>
+        <div class="product"><strong>Солнечный кешью</strong><br>Кешью с мёдом — мягкий и сливочный вкус</div>
+        <div class="product"><strong>Кубанские Тропики</strong><br>Кешью с кокосом и мёдом</div>
+        <div class="product"><strong>Фундук в шоколаде</strong><br>Фундук, какао и мёд — густая и ароматная паста</div>
+    </div>
+</section>
+
+<section>
+    <h2>Оптовикам</h2>
+    <p>Мы предлагаем привлекательные условия для сотрудничества:</p>
+    <ul>
+        <li>Минимальная партия от 50 баночек</li>
+        <li>Индивидуальный подход к партнёрам</li>
+        <li>Срок хранения — 12 месяцев</li>
+        <li>Натуральный состав без сахара и добавок</li>
+        <li>Крафтовая упаковка, подходящая для подарков</li>
+    </ul>
+</section>
+
+<section class="form-block">
+    <h2>Получить оптовый прайс</h2>
+    <form action="https://formsubmit.co/kubanskie.slasti@mail.ru" method="POST">
+        <input type="text" name="Имя" placeholder="Ваше имя" required>
+        <input type="tel" name="Телефон" placeholder="Телефон" required>
+        <input type="email" name="Email" placeholder="Электронная почта" required>
+        <button type="submit">Получить прайс</button>
+        <input type="hidden" name="_next" value="https://thankyou.page/">
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</section>
+
+<footer>
+    © 2025 Кубанские Сласти · ИП Сухарева Ю.К., Краснодарский край
+</footer>
+
+</body>
+</html>
